@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <SeekBar
+        android:layout_margin="20dp"
+        android:id="@+id/frequency_slider"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:max="20"
+        android:progress="0"
+        android:secondaryProgress="0"
+        android:progressDrawable="@drawable/seekbar_progress"
+        android:thumb="@drawable/seekbar_thumb"
+        android:padding="10dp"
+         />
+
+
+
+</LinearLayout>
